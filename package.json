@@ -4,8 +4,7 @@
   "cordova": {
     "id": "cordova-plugin-lock-task",
     "platforms": [
-      "android",
-      "ios",
+      "android"
     ]
   },
   "description": "Lock Task"
