@@ -2,9 +2,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-    id="lock-tasck"
+    id="cordova-plugin-lock-task"
     version="1.0.0">
-    <name>Cordova Plugin Template</name>
+    <name>Cordova Plugin Lock Task</name>
     <description></description>
     <license>MIT</license>
     <keywords></keywords>
