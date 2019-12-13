@@ -1,6 +1,6 @@
 /**
  */
-package com.example;
+package com.locktask.ep;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaInterface;
