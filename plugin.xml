@@ -2,7 +2,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-    id="my-cordova-plugin"
+    id="lock-tasck"
     version="1.0.0">
     <name>Cordova Plugin Template</name>
     <description></description>
@@ -21,12 +21,12 @@
       </js-module>
       <config-file target="res/xml/config.xml" parent="/*">
         <feature name="LockTask">
-          <param name="android-package" value="com.example.MyCordovaPlugin" />
+          <param name="android-package" value="com.locktask.ep" />
           <param name="onload" value="true" />
         </feature>
       </config-file>
 
-      <source-file src="src/android/com/lockTask.java" target-dir="src/com/" />
+      <source-file src="src/android/com/LockTask.java" target-dir="src/com/" />
     </platform>
 
 </plugin>
