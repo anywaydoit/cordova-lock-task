@@ -16,7 +16,7 @@ import android.util.Log;
 
 import java.util.Date;
 
-public class MyCordovaPlugin extends CordovaPlugin {
+public class LockTask extends CordovaPlugin {
   private static final String TAG = "LockTask";
 
   public void initialize(CordovaInterface cordova, CordovaWebView webView) {
