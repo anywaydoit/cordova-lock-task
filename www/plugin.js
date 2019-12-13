@@ -1,6 +1,6 @@
 var exec = require('cordova/exec');
 
-var PLUGIN_NAME = 'MyCordovaPlugin';
+var PLUGIN_NAME = 'LockTask';
 
 var MyCordovaPlugin = {
   initLock: function(phrase, cb) {
