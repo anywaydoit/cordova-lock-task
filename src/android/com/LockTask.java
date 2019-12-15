@@ -2,6 +2,8 @@
  */
 package com.locktask.ep;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaInterface;
 import org.apache.cordova.CordovaPlugin;
