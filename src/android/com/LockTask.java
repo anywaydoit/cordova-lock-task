@@ -30,10 +30,10 @@ public class LockTask extends CordovaPlugin {
   public void initialize(CordovaInterface cordova, CordovaWebView webView) {
     super.initialize(cordova, webView);
     
-     activity = cordova.getActivity();
-        activityManager = (ActivityManager) activity.getSystemService(Context.ACTIVITY_SERVICE);
+     //activity = cordova.getActivity();
+     //   activityManager = (ActivityManager) activity.getSystemService(Context.ACTIVITY_SERVICE);
 
-    Log.d(TAG, "Initializing LockTask");
+    //Log.d(TAG, "Initializing LockTask");
   }
 
   public boolean execute(String action, JSONArray args, final CallbackContext callbackContext) throws JSONException {
