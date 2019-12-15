@@ -58,7 +58,7 @@ public class LockTask extends CordovaPlugin {
         }
 
         catch (Exception e) {
-            callback.error(e.getMessage());
+            //callback.error(e.getMessage());
             return false;
         }    
       
@@ -73,7 +73,7 @@ public class LockTask extends CordovaPlugin {
             // activity is pinned...
             if (activityManager.isInLockTaskMode()) {
                 activity.stopLockTask();
-                callback.success();
+                //callback.success();
                 return true;
             }
 
