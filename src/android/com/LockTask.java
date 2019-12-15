@@ -14,7 +14,6 @@ import android.app.ActivityManager;
 import android.content.ComponentName;
 import android.content.Context;
 
-import androidx.appcompat.app.AppCompatActivity;
 import org.apache.cordova.PluginResult;
 import org.apache.cordova.PluginResult.Status;
 import org.json.JSONObject;
