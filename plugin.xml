@@ -13,8 +13,7 @@
 
     <!-- android -->
     <platform name="android">
-     <preference name="android-minSdkVersion" value="29" />
-     <preference name="android-targetSdkVersion" value="29"/>
+     
       <js-module src="www/plugin.js" name="plugin">
         <runs/>
 
